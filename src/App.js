@@ -212,6 +212,12 @@ function App() {
                           <input type="password" placeholder="xxxxxxxx"/>
                       </form>
                   </div>
+                  <div className="uep">
+                      <form action="">
+                          <h4 className="login-title">Password <i className='bx bx-edit-alt'></i></h4>
+                          <input type="password" placeholder="xxxxxxxx"/>
+                      </form>
+                  </div>
               </div>
               <div className="lan">
                   <div className="language">
