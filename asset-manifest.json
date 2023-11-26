@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Exandeor/DokiDoki.git/static/css/main.2aadf445.css",
+    "main.js": "/Exandeor/DokiDoki.git/static/js/main.d2f49689.js",
+    "static/js/787.0e31295a.chunk.js": "/Exandeor/DokiDoki.git/static/js/787.0e31295a.chunk.js",
+    "static/media/LoginBackground.jpg": "/Exandeor/DokiDoki.git/static/media/LoginBackground.ae501646dac61687f2af.jpg",
+    "static/media/Instagram.png": "/Exandeor/DokiDoki.git/static/media/Instagram.b5286f71a2375a8253a7.png",
+    "static/media/Logo.jpg": "/Exandeor/DokiDoki.git/static/media/Logo.a0b815971251c8823cf2.jpg",
+    "static/media/Viber.png": "/Exandeor/DokiDoki.git/static/media/Viber.4631c6ff5e941c154653.png",
+    "static/media/Spotify.png": "/Exandeor/DokiDoki.git/static/media/Spotify.d7c133b044286f870f22.png",
+    "static/media/Foodpanda.png": "/Exandeor/DokiDoki.git/static/media/Foodpanda.24b30178fe7690598052.png",
+    "static/media/Messenger.png": "/Exandeor/DokiDoki.git/static/media/Messenger.b46e0a4184acadbc23fc.png",
+    "static/media/Twitter.jpg": "/Exandeor/DokiDoki.git/static/media/Twitter.549a1b506b724e604331.jpg",
+    "static/media/logo.svg": "/Exandeor/DokiDoki.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Exandeor/DokiDoki.git/index.html",
+    "main.2aadf445.css.map": "/Exandeor/DokiDoki.git/static/css/main.2aadf445.css.map",
+    "main.d2f49689.js.map": "/Exandeor/DokiDoki.git/static/js/main.d2f49689.js.map",
+    "787.0e31295a.chunk.js.map": "/Exandeor/DokiDoki.git/static/js/787.0e31295a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aadf445.css",
+    "static/js/main.d2f49689.js"
+  ]
+}
