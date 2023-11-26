@@ -1,0 +1,320 @@
+/*.container {*/
+/*  width: 100%;*/
+/*  height: 100vh;*/
+/*  background: white;*/
+/*}*/
+
+/*.subContainer {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  width: 100%;*/
+/*  background: ghostwhite;*/
+/*}*/
+
+/*.topBar {*/
+/*  width: 100%;*/
+/*  height: 6vh;*/
+/*  background: white;*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*}*/
+
+/*.noMargin {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*}*/
+
+
+/*.TASKS_container {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  height: 6vh;*/
+/*  width: 9.5%;*/
+/*}*/
+
+/*.leftNavigationBlock {*/
+/*  width: 100%;*/
+/*  height: 16vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  background: white;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  border-bottom: 1px solid lightgray;*/
+
+
+/*}*/
+/*.leftNavigationBlock:hover {*/
+/*  background: dodgerblue;*/
+/*  color: white;*/
+/*}*/
+
+/*.searchBar {*/
+/*  width: 90.5%;*/
+/*  background: white;*/
+/*  height: 6vh;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.leftColumn {*/
+/*  width: 10vw;*/
+/*}*/
+
+/*.rightColumn {*/
+/*  background: ghostwhite;*/
+/*  width: 90%;*/
+/*  height: 90vh;*/
+/*  margin: 6vh 6vh 0 6vh;*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  justify-content: space-around;*/
+/*}*/
+
+/*.miniHeadBarContainer {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  padding: 10px;*/
+/*  align-items: center;*/
+/*  border-bottom: 1px solid lightgray;*/
+/*  background: white;*/
+/*}*/
+
+/*.leftBox {*/
+/*  width: 45%;*/
+/*  height: 100%;*/
+/*}*/
+
+/*.rightBox {*/
+/*  width: 45%;*/
+/*  height: 100%;*/
+
+/*}*/
+
+/*.shadowHover {*/
+/*}*/
+
+/*.shadowHover:hover {*/
+/*  background: rgba(255,255,255,0.1);*/
+/*}*/
+/*.roundRadius {*/
+/*  border-radius: 50%;*/
+/*}*/
+
+/*.taskItem {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  align-items: center;*/
+/*  background: white;*/
+/*  padding: 10px;*/
+/*  border-bottom: 1px solid lightgray;*/
+/*}*/
+
+/*.button:hover {*/
+/*  border: 1px solid black;*/
+/*  color : black;*/
+/*}*/
+
+/*.font5 {*/
+/*  font-size: .8rem;*/
+/*}*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Heebo', sans-serif;
+
+}
+.upper-body {
+  height: 100vh;
+  width : 100%;
+  padding-right: 10px;
+
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background: rgba(0,0,0,0.5);
+  border-bottom-color: rgba(255,255,255,0.1);
+  border-bottom-width : thin;
+  border-bottom-style: solid;
+  padding-left: 8vh;
+}
+.left_header {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
+}
+.left_header a img {
+  width: 100px;
+  height: 50px;
+  transition: 0.5s;
+}
+.left_header a img:hover {
+  transform: translateY(-5px);
+}
+.left_header .left_menu {
+  column-gap: 100px;
+}
+.left_header .left_menu a {
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 200;
+  transition: 0.5s;
+}
+.left_header .left_menu a:hover {
+  color: coral;
+  padding: 20px;
+}
+.right_header {
+  display: flex;
+  align-items: center;
+}
+.right_header .right_menu a {
+  padding: 6px;
+  font-size: 12px;
+  opacity: 0.5;
+  font-weight: 200;
+  color: white;
+  transition: 0.5s;
+}
+.right_header .right_menu a:hover {
+  color: white;
+  opacity: 1;
+  padding: 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background-color: coral;
+}
+.btn_sign_in {
+  padding: 8px 25px;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn_sign_in:hover {
+  opacity: 0.8;
+  box-shadow: 1px 1px 1px black;
+}
+.btn_sign_in:active {
+  background-color: gray;
+  color: red;
+
+}
+.lower_header {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  height: 8vh;
+  padding-left: 8vh;
+}
+.lh_l_menu {
+  color: black;
+  background-color: white;
+  font-size: 13px;
+  width: 35vw;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.lh_r_menu {
+  display: flex;
+  column-gap: 30px;
+  opacity: 1;
+}
+.lh_r_menu a {
+  color: white;
+  transition: 0.6s;
+}
+.lh_r_menu a:hover {
+  border-bottom: 2px solid red;
+}
+
+.lh_r_menu_item {
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+}
+.choose_menu a{
+  padding: 0px 2px;
+}
+.nav-bar {
+  display: flex;
+  width: 12vw;
+  flex-direction: column;
+  background-blend-mode: hard-light;
+  margin-left: 8vh;
+}
+.log-in-out {
+  display: flex;
+  column-gap:1px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+.log-io {
+  display: flex;
+  background: coral;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 10px 0 10px 0;
+
+}
+.log-io h5 {
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.log-io h5:hover {
+  background-color: red;
+}
+.choose {
+  line-height: 20px;
+}
+.choose .uep {
+  padding: 20px 0px 20px 0px;
+}
+.choose .uep form input {
+  background-color: transparent;
+  width: 100%;
+  opacity: 0.6;
+  color: white;
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+  background-blend-mode: hue;
+  padding-left: 10px;
+}
+.choose .uep form h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.login-title {
+  color: white;
+}
+.lan .language {
+  line-height: 60px;
+}
+
+.Logo {
+  width: 2vw;
+  height : 2vw;
+}
